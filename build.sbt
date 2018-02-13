@@ -1,5 +1,5 @@
 val commonSettings = Seq(
-  crossSbtVersions := Seq("0.13.16", "1.0.2"),
+  crossSbtVersions := Seq("1.1.1"),
   scalaVersion := { (sbtBinaryVersion in pluginCrossBuild).value match {
     case "0.13" => "2.10.6"
     case _ => "2.12.3"
